@@ -7,7 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Personal</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="static/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/1a1699dfb9.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -15,7 +18,7 @@
 </head>
 
 <body>
-  <div class="container-fluid whole-view">
+  <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Jhorman C</a>
@@ -36,23 +39,38 @@
     </nav>
     <div class="row">
       <div class="col banner">
-        <img id="banner-img" src="banner.png" alt="Aqui va el banner.">
+        <img id="banner-img" src="static/banner.png" alt="Banner with name and photo">
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6" id="who">
         <h1 class="text-center header">Who Am I?</h1>
-        <p class="contenido">My name is Jhorman Caballero and I'm 20 years old. I'm very passionate for web development
-          and always try to learn new things about programming with virtual courses and at the univeristy.
+        <p class="contenido">My name is Jhorman Caballero, I am 20 years old, and I am studying for a bachelor's in
+          Software Engineer at Universidad de Los Andes in Bogotá, Colombia. Furthermore, I am taking courses in Django
+          and JavaScript because I am in love with Web Development.
+        </p>
+        <p class="contenido">Since I was a kid, I was interested in electronic devices and how they work, in turn, that
+          is the reason why
+          I
+          was attracted to programming and software-related topics. Also, I am always open and motivated to learn new
+          things about languages, frameworks, design patterns, applications, and teamwork.
+        </p>
+        <p class="contenido">Lastly, my project in life is to work in the fields that I like, always learning new
+          things, and meeting new
+          people with the same interests and energy.
         </p>
         <p class="contenido">
           And these are my social networks:
         </p>
-        <ul>
-          <li><a href="https://www.instagram.com/jhorcaball/">Instagram</a></li>
-          <li><a href="https://www.linkedin.com/in/jhormancaballero/">LinkedIn</a></li>
-          <li>jo.caballero@uniandes.edu.co</li>
-        </ul>
+        <div class="contenido">
+          <ul class="social">
+            <li><a href="https://www.instagram.com/jhorcaball/"><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/jhormancaballero/"><i
+                  class="fa-brands fa-linkedin-in fa-2xl"></i></a>
+            </li>
+            <li><a href="https://wa.me/573168298300"><i class="fa-brands fa-whatsapp fa-2xl"></i></a></li>
+          </ul>
+        </div>
       </div>
       <div class=" col-md-6 col-lg-6 d-sm-none d-md-block d-none d-sm-block">
         <img class="image" src="https://integressinc.com/wp-content/uploads/2020/07/screen_2x-1.jpg" alt="Imagen">
@@ -65,8 +83,9 @@
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6" id="projects">
         <h1 class="text-center header">Projects</h1>
-        <p class="contenido">Here is the project my team and I developed for Innovandes. It consists on a marketplace
-          that connect builders with small and medium size businesses that wanted to reform their offices.</p>
+        <p class="contenido"><strong>Safet (08/2021 - 12/2021): </strong> Safet is a project that seeks to connect
+          builders with medium and small size organizations, in order to make refurbishments to their facilities.
+          It was developed using Python, HTML, CSS and JavaScript in Django, and deployed using AWS.</p>
         <div class="video">
           <iframe width="300" height="150" src="https://www.youtube.com/embed/rcKhIpjtd8s" title="YouTube video player"
             frameborder="0"
@@ -74,12 +93,15 @@
             allowfullscreen>
           </iframe>
         </div>
+        <p class="contenido"><strong>Discomovil (01/2021 - 06/2021): </strong>Disvomovil is a web page for renting party
+          equipment as well as hiring musical groups. It was developed in Java EE using JPA and JAX-RS for the backend
+          and Angular for the frontend.</p>
       </div>
       <hr>
       <div class="col-sm-12 col-md-6 col-lg-6" id="hobbies">
         <h1 class="text-center header">Hobbies & Interests</h1>
         <p class="contenido">
-        <ul>
+        <ul class="contenido">
           <li>I'm in love with web development.</li>
           <li>I'm interested in front-end and back-end frameworks as React, Sass and Django.</li>
           <li>I really like playing tennis.</li>
